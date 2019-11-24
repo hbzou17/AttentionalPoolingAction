@@ -1,5 +1,7 @@
-1.环境设置:
-注意tensorflow版本为TensorFlow 1.1.0-rc2, 因此，需要确保当前环境变量使用的是cuda8.0 及 cudnn5.1, 切换cuda及cudnn的脚本见/data/scripts,
-python版本2.x
+#
+1.TensorFlow 1.1.0-rc2
+2.need install: opencv: apt install libopencv-dev 
+3.export TF_PATH=/usr/local/lib/python2.7/dist-packages/tensorflow/include
+4.apt install llibboost-all-dev
 
-2.
+
